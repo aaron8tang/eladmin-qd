@@ -12,6 +12,7 @@ const getters = {
   socketApi: state => state.api.socketApi,
   imagesUploadApi: state => state.api.imagesUploadApi,
   updateAvatarApi: state => state.api.updateAvatarApi,
+  uploadVehicleApi: state => state.api.uploadVehicleApi,
   qiNiuUploadApi: state => state.api.qiNiuUploadApi,
   sqlApi: state => state.api.sqlApi,
   swaggerApi: state => state.api.swaggerApi

@@ -6,7 +6,6 @@
       <el-table-column prop="username" label="用户名"/>
       <el-table-column prop="requestIp" label="IP"/>
       <el-table-column prop="description" label="描述"/>
-      <el-table-column :show-overflow-tooltip="true" prop="method" label="方法名称"/>
       <el-table-column :show-overflow-tooltip="true" prop="params" label="参数"/>
       <el-table-column prop="time" label="请求耗时" align="center">
         <template slot-scope="scope">
